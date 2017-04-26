@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/career"
+            android:icon="@drawable/career"
+            android:title="Career" />
+        <item
+            android:id="@+id/enrollment"
+            android:icon="@drawable/enrollment"
+            android:title="Enrollment" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contacts"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="Follow Us">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/twt"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/in"
+                android:icon="@drawable/linkedin"
+                android:title="LinkedIn" />
+            <item
+                android:id="@+id/p"
+                android:icon="@drawable/pinterest"
+                android:title="Pinterest" />
+        </menu>
+    </item>
+
+</menu>

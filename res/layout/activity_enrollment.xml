@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.webteklabs.EnrollmentActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Enrollment Form"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_below="@+id/eid"
+        android:id="@+id/etv1"
+        android:text="Name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv2"
+        android:layout_below="@+id/etv1"
+        android:layout_marginTop="20dp"
+        android:text="Contact"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv3"
+        android:layout_below="@+id/etv2"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv4"
+        android:layout_below="@+id/etv3"
+        android:layout_marginTop="20dp"
+        android:text="Year/Sem"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv5"
+        android:layout_below="@+id/etv4"
+        android:layout_marginTop="20dp"
+        android:text="Courses"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv6"
+        android:layout_below="@+id/etv5"
+        android:layout_marginTop="20dp"
+        android:text="State"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv7"
+        android:layout_below="@+id/etv6"
+        android:layout_marginTop="20dp"
+        android:text="ZIP"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv8"
+        android:layout_below="@+id/etv7"
+        android:layout_marginTop="20dp"
+        android:text="Centre"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv9"
+        android:layout_below="@+id/etv8"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etv10"
+        android:layout_below="@+id/etv9"
+        android:layout_marginTop="20dp"
+        android:text="Amount"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Your Name"
+        android:id="@+id/eet1"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv1"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Your Mobile Number"
+        android:id="@+id/eet2"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv2"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="yourmail@domain.com"
+        android:id="@+id/eet3"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv3"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Write Year or Semester"
+        android:id="@+id/eet4"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv4"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Your Course Name"
+        android:id="@+id/eet5"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv5"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/esp1"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv6"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Your ZIP Code"
+        android:id="@+id/eet7"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv7"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="Choose Your Centre"
+        android:id="@+id/esp2"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv8"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Write Your Present Address"
+        android:id="@+id/eet9"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv9"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Write Enrollment Amount"
+        android:id="@+id/eet10"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/etv10"
+        android:layout_toEndOf="@+id/etv4" />
+
+    <Button
+        android:id="@+id/ebt"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/etv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:text="Submit"/>
+</RelativeLayout>
+
+</ScrollView>
